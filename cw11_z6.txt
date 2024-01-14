@@ -1,0 +1,14 @@
+curl -X POST "https://api.mapbox.com/uploads/v1/<username>/credentials?access_token=<secret_token>"
+
+$ export AWS_ACCESS_KEY_ID="{accessKeyId}"
+$ export AWS_SECRET_ACCESS_KEY="{secretAccessKey}"
+$ export AWS_SESSION_TOKEN="{sessionToken}"
+
+$ aws s3 cp POI.zip s3://{bucket}/{key} --region eu-north-1
+
+curl -X POST -H "Content-Type: application/json" -H "Cache-Control: no-cache" -d '{
+  "url": "http://{bucket}.s3.amazonaws.com/{key}",
+  "tileset": "agnrmn.traverse-bay",
+  "name": "Traverse Bay"
+}' 'https://api.mapbox.com/uploads/v1/agnrmn?access_token=YOUR_MAPBOX_ACCESS_TOKEN'
+
