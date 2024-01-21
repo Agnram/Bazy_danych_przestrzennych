@@ -1,0 +1,26 @@
+Name:
+Webhook - cw10 from Dashboards - 4418d202-03d9-0d7e-aa0e-e5b4aaafe6d7
+
+Token:
+8426f2cbdcaaa7630ef87140cbae7bf754bc0947
+
+Description:
+Allow users to run Dashboards/cw10 without logging in
+
+Created Date:
+2024-01-21T00:37:45.837Z
+
+Expiration Date:
+2025-01-20T23:00:00.000Z
+
+Enabled:
+true
+
+Authorization with Header:
+http://AGNIESZKA/fmejobsubmitter/Dashboards/cw10.fmw?email=agnieszkaramian5%40gmail.com&haslo=&email_klient=agnieszkaramian5%40gmail.com&powiat=powiat%20tarnowski&zachmurzenie=21&data_poczatkowa=20230707000000&data_koncowa=20230708000000&SourceDataset_SHAPEFILE_5=D%3A%5CStudiowe_rzeczy%5Cbazy_przestrzenne%5CDane_cw10%5Cpowiaty%5Cpowiaty.shp&SourceDataset_SHAPEFILE=D%3A%5CStudiowe_rzeczy%5Cbazy_przestrzenne%5CDane_cw10%5Cp2%5Cpowiaty%5Cpowiaty.shp&opt_showresult=false&opt_servicemode=sync
+Header Key: Authorization
+Header Value: fmetoken token=8426f2cbdcaaa7630ef87140cbae7bf754bc0947
+
+Authorization with Query String:
+http://AGNIESZKA/fmejobsubmitter/Dashboards/cw10.fmw?email=agnieszkaramian5%40gmail.com&haslo=&email_klient=agnieszkaramian5%40gmail.com&powiat=powiat%20tarnowski&zachmurzenie=21&data_poczatkowa=20230707000000&data_koncowa=20230708000000&SourceDataset_SHAPEFILE_5=D%3A%5CStudiowe_rzeczy%5Cbazy_przestrzenne%5CDane_cw10%5Cpowiaty%5Cpowiaty.shp&SourceDataset_SHAPEFILE=D%3A%5CStudiowe_rzeczy%5Cbazy_przestrzenne%5CDane_cw10%5Cp2%5Cpowiaty%5Cpowiaty.shp&opt_showresult=false&opt_servicemode=sync&token=8426f2cbdcaaa7630ef87140cbae7bf754bc0947
+
